@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(204, 210, 216);
+}
+/* heading */
+#header{
+    text-align: center;
+    color: rgb(248, 27, 27);
+    background-color: rgb(54, 199, 209);
+}
+.heading{
+    font-size: 2.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 65, 221);
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(248, 27, 27);
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(168, 158, 65);
+  }
+  
+  .active {
+    background-color: rgb(240, 219, 37);
+  }
+
+   /* post  */
+   div.responsive{
+    padding-bottom: 15px;
+
+   }
+  div.gallery {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  /* profile */
+  .profile{
+    text-align: center;
+    padding: 15px;
+  }
+  .profile img{
+    width: 300px;
+    height: 300px;
+ border-radius: 150px;
+    padding: 15px 15px;
+
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  /* landing page */
+  #landing{
+    background-color:rgb(54, 199, 209) ;
+    
+  }
+  #l-heading{
+  padding: 25px; 
+  text-align: center;
+    color: rgb(248, 27, 27);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .button{
+  padding: 15px ;
+ }
+ .button a{
+ margin: 5px;
+}
+form{
+  background: #fff;
+  padding: 25px;
+  box-shadow:0 1px 3px rgba(0, 0, 0, 0.13);
+}
+.center{
+  text-align:center;
+  padding: 16px;
+}
+.form-group{
+  padding:7px;
+}
+.icon{
+  background-color:#fff;
+  margin: 0px;
+}
+.icon img{
+  width:4rem;
+  height:4rem;
+  border-radius:30px;
+}
+.name{
+ padding-left:15px;
+ padding-top:5px;
+}
+.desc{
+  padding-left:15px;
+ padding-top:5px;
+
+}
+.delete{
+  margin-top: 10px;
+}
